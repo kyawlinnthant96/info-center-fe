@@ -1,0 +1,21 @@
+// variables
+@use "abstract/variables" as vars;
+
+// layout
+@use "layout/app_layout";
+
+// components
+@use "components/post-card";
+// font-family: "SegoeUi";
+@font-face {
+  font-family: "SegoeUi";
+  src: url("../assets/fonts/SegoeUI/Segoe-UI.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SegoeUi";
+  src: url("../assets/fonts/SegoeUI/Segoe-UI-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

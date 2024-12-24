@@ -1,0 +1,41 @@
+//Color
+$color-primary: #ec0b8d;
+$color-orange-red: #ff4d4f;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-light-grey: #f4f4f4;
+$color-error: #ffe6f5;
+$color-primary-gradient: linear-gradient(to bottom, #ff7ac9, #ec008c);
+$color-error-primary: rgba(255, 0, 0, 1);
+$color-grey-white: rgba(0, 0, 0, 0.1);
+$color-mask: rgba(0, 0, 0, 0.45);
+$color-gray-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
+
+$padding-sm: 10px;
+$padding-md: 20px;
+
+$gap-sm: 10px;
+$gap-md: 15px;
+
+$rounded-sm: 10px;
+$rounded-md: 15px;
+$rounded-lg: 20px;
+
+$font-sm: 13px;
+$font-md: 15px;
+$font-lg: 20px;
+
+$heading-1: 34px;
+$heading-2: 29px;
+$heading-3: 24px;
+
+$font-regular: 400;
+$font-normal: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+// line height
+$leading-xs: 17px;
+$leading-sm: 20px;
+$leading-md: 22px;
+$leading-lg: 32px;

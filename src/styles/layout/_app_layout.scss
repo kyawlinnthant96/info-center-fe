@@ -1,0 +1,18 @@
+@use "../abstract/variables" as vars;
+
+.ant-layout {
+  height: 100vh;
+  overflow: hidden;
+  background-color: vars.$color-white;
+  &-content {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

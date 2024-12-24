@@ -1,0 +1,14 @@
+@use "../abstract/variables" as vars;
+
+.post-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: vars.$padding-sm;
+  gap: vars.$gap-md;
+  width: 100%;
+  height: auto;
+  border-radius: vars.$rounded-sm;
+  background-color: vars.$color-white;
+  box-shadow: vars.$color-gray-shadow;
+}
